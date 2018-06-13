@@ -96,7 +96,7 @@ input_text = open_and_read_file(file)
 # Get a Markov chain
 chains = make_chains(input_text)
 
-# # Produce random text
+# Produce random text
 random_text = make_text(chains)
 
 print(random_text)
